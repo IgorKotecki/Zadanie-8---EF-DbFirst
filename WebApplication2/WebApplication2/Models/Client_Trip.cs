@@ -8,4 +8,6 @@ public class Client_Trip
     public Trip Trip { get; set; }
     public DateTime RegisteredAt { get; set; }
     public DateTime? PaymentDate { get; set; }
+    public object IdClientNavigation { get; set; }
+    public object IdTripNavigation { get; set; }
 }
